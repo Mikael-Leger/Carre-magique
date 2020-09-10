@@ -70,7 +70,7 @@ int main(void) {
   // On affiche la grille entière une fois que toutes les cases sont remplies
   for (int i = 0; i < taille; i++) {
     for (int j = 0; j < taille; j++) {
-      printf("[%d]", carreMagique[i][j]);
+      printf("[%3d]", carreMagique[i][j]);
 
     }
     printf("\n");
